@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="img/briefcase-solid-full.svg" />
+  <title>Portfolio Kevin Urbain | Développeur Backend/Fullstack</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Background Effects -->
+  <div class="bg-grid"></div>
+  <div class="glow-orb glow-orb-1"></div>
+  <div class="glow-orb glow-orb-2"></div>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <a href="#" class="logo">&lt;/Kevin Urbain&gt;</a>
+      <ul>
+        <li><a href="#about">Parcours</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Développeur Backend<br />& Fullstack</h1>
+        <p class="subtitle">// En recherche de stage</p>
+        <p>
+          Développeur Back-End passionné par la conception d'architectures
+          robustes, je m'attache à créer des solutions techniques performantes
+          et évolutives.
+          <br />
+          <br />
+          Spécialisé dans l'écosystème PHP, je maîtrise les fondamentaux de la
+          programmation orientée objet et du modèle MVC. Je recherche
+          aujourd'hui un stage formateur pour transposer mes bases solides en
+          développement natif vers des environnements de production utilisant
+          des frameworks tels que Laravel ou Symfony. Doté d'un esprit
+          d'analyse, je suis prêt à relever des défis techniques sur n'importe
+          quel écosystème Back-End.
+        </p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-secondary">Me contacter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">Mon Parcours</h2>
+      <div class="about-content">
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>Recherche de stage</h3>
+            <div class="date">2025 - 2026</div>
+            <p>
+              Actuellement à la recherche d'une immersion professionnelle pour
+              mettre à profit mes compétences en architecture logicielle
+              (PHP/OOP/SQL) et contribuer à des projets concrets au sein d'une
+              équipe technique.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <h3>Projets personnels</h3>
+            <div class="date">2025</div>
+            <p>
+              <strong>AstroSight | Blog communautaire</strong> <br />
+              Conception et développement d'une plateforme dédiée à
+              l'astrophotographie. Mise en place d'un système de gestion de
+              contenu dynamique et interaction utilisateur.
+            </p>
+            <br />
+            <p>
+              <strong>CMS sur-mesure | Site vitrine (Secteur Juridique)</strong><br />Développement intégral d'un
+              système de gestion de contenu
+              (CMS) "from scratch" pour une avocate. L'objectif : offrir une
+              interface d'administration simplifiée pour une autonomie totale
+              sur le contenu éditorial et la gestion des services.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <h3>Formation Développeur Web Back-End (IFAPME / E6K)</h3>
+            <div class="date">2025</div>
+            <p>
+              Cursus de deux ans en alternance focalisé sur la logique
+              algorithmique et le développement robuste. Expertise ciblée sur
+              l'écosystème PHP et Java, avec une forte composante en
+              architecture de données.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <h3>Transition professionnelle</h3>
+            <div class="date">2024-2025</div>
+            <p>
+              Fort d'une première carrière dans le secteur social, j'ai choisi
+              de professionnaliser ma passion pour la programmation en
+              privilégiant une approche structurée. Au-delà de la syntaxe des
+              langages, je me concentre sur la compréhension profonde de
+              l'algorithmique et de la gestion des données. Ce virage
+              méthodique, soutenu par un aménagement de mon temps de travail,
+              témoigne de ma détermination à construire des fondations
+              techniques rigoureuses.
+            </p>
+          </div>
+        </div>
+        <div>
+          <h3 style="
+                color: var(--accent);
+                margin-bottom: 1rem;
+                font-size: 1.4rem;
+              ">
+            À propos
+          </h3>
+          <p style="color: var(--text-secondary); margin-bottom: 1rem">
+            Mon parcours a débuté dans l'humain, où j'ai appris l'analyse de
+            situations complexes et la gestion de projets en tant qu'éducateur
+            spécialisé. Aujourd'hui, je transpose cette capacité d'analyse
+            dans le monde du développement web.
+          </p>
+          <p style="color: var(--text-secondary); margin-bottom: 1rem">
+            Mon approche du développement se concentre sur la qualité du code,
+            les bonnes pratiques et la documentation. Je suis particulièrement
+            intéressé par les architectures structurées (MVC, POO),
+            l'optimisation des performances et la sécurité.
+          </p>
+          <p style="color: var(--text-secondary); margin-bottom: 1rem">
+            Mon objectif à présent est d'intégrer une équipe qui me permettra
+            d'apporter mes compétences et de contribuer à des projets
+            robustes.
+          </p>
+          <p style="color: var(--text-secondary); margin-bottom: 1rem">
+            Mes atouts: autonomie, patience, perservérance, curiosité, esprit
+            analytique.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" style="background: var(--bg-secondary)">
+    <div class="container">
+      <h2 class="section-title">Compétences Techniques</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Backend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">PHP natif</span>
+            <span class="skill-tag">PHP POO</span>
+            <span class="skill-tag">Architecture MVC</span>
+            <span class="skill-tag">Java (en cours d'apprentissage)</span>
+            <span class="skill-tag">REST API (en cours d'apprentissage)</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Bases de données</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">CRUD</span>
+            <span class="skill-tag">Modélisations</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">Bootstrap</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>DevOps & Outils</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Mes Projets</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/image-astrosight.png" alt="AstroSight Project" />
+          </div>
+          <div class="project-content">
+            <div class="project-details">
+              <h3>AstroSight | Plateforme communautaire</h3>
+              <p>
+                Conception d'un blog participatif dédié à l'astronomie et
+                l'astrophotographie amateur.
+              </p>
+              <p>
+                <strong>Architecture :</strong> Refactorisation complète en
+                cours vers une structure 100% MVC via un framework
+                propriétaire développé "from scratch".
+              </p>
+              <p>
+                <strong>Gestion des données :</strong> Système CRUD complet,
+                back-office d'administration et suivi rigoureux du cycle de
+                vie des variables.
+              </p>
+              <p>
+                <strong>Interactivité :</strong> Authentification sécurisée,
+                espace communautaire et module de gestion des médias.
+              </p>
+            </div>
+            <div class="project-footer">
+              <div class="project-tech">
+                <span class="tech-badge">PHP natif</span>
+                <span class="tech-badge">MySQL</span>
+                <span class="tech-badge">Bootstrap</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/KevinUrbain/astrosight" target="_blank" class="project-link">→ Code
+                  source</a>
+                <a href="https://astrosight.be" class="project-link" target="_blank">→ Démo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">📊</div>
+          <div class="project-content">
+            <div class="project-details">
+              <h3>CMS sur-mesure | Site vitrine (Secteur Juridique)</h3>
+              <p>
+                Présence numérique via un site vitrine et développement
+                intégral d'un système de gestion de contenu CMS "from scratch"
+                pour une avocate. L'objectif est d'offrir une interface
+                d'administration simplifiée pour une autonomie totale sur le
+                contenu éditorial et la gestion des services.
+              </p>
+            </div>
+            <div class="project-footer">
+              <div class="project-tech">
+                <span class="tech-badge">PHP natif</span>
+                <span class="tech-badge">MySQL</span>
+                <span class="tech-badge">Bootstrap</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">→ Code source</a>
+                <a href="#" class="project-link">→ Démo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" style="background: var(--bg-secondary)">
+    <div class="container">
+      <h2 class="section-title">Me Contacter</h2>
+      <div class="contact-content">
+        <p>
+          Je suis actuellement à la recherche d'un stage en développement
+          backend/fullstack. N'hésitez pas à me contacter pour discuter
+          d'opportunités ou simplement échanger !
+        </p>
+        <div class="contact-links">
+          <a href="mailto:kevin.urbain.pro@gmail.com" class="contact-link">
+            <i class="fa-solid fa-at"></i> Email
+          </a>
+          <a href="https://github.com/KevinUrbain" class="contact-link" target="_blank">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/kevin-urbain-6b4443187/" class="contact-link" target="_blank">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="tel:+32497830473" class="contact-link">
+            <i class="fa-solid fa-phone"></i> Téléphone
+          </a>
+        </div>
+        <div style="margin-top: 2rem">
+          <a href="#" class="btn btn-primary" style="display: inline-block"><i class="fa-solid fa-file"></i> Télécharger
+            mon CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© <?= date('Y') ?> - Tous droits réservés
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute("href"));
+        if (target) {
+          target.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        }
+      });
+    });
+
+    // Intersection Observer for fade-in animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: "0px 0px -100px 0px",
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = "1";
+          entry.target.style.transform = "translateY(0)";
+        }
+      });
+    }, observerOptions);
+
+    // Observe sections for animation
+    document.querySelectorAll("section").forEach((section) => {
+      section.style.opacity = "0";
+      section.style.transform = "translateY(30px)";
+      section.style.transition =
+        "opacity 0.6s ease-out, transform 0.6s ease-out";
+      observer.observe(section);
+    });
+  </script>
+</body>
+
+</html>
